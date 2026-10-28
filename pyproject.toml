@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nickerschl-toolproto_jd460"
+version = "0.1.0"
+description = "按结构键把条目聚类，标出工具调用协议工程师·检索召回的漏斗分析上的同组项与各组的代表样本"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "nickerschl" }]
+keywords = ["ai", "llm", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://nickerschl.github.io"
+Repository = "https://github.com/nickerschl/toolproto_jd460"
+Issues = "https://github.com/nickerschl/toolproto_jd460/issues"
+
+[project.scripts]
+toolproto_jd460 = "toolproto_jd460:main"
+
+[tool.setuptools]
+py-modules = ["toolproto_jd460"]
